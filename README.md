@@ -18,6 +18,25 @@ The system uses:
 - Natural language legal Q&A
 - Lightweight deployment using cloud-based LLaMA
 
+## Screenshots
+
+### 📤 Document Upload
+Upload your legal document (PDF/DOCX) easily and securely.
+![Document Upload](screenshots/upload_document.jpeg)
+
+### ⚠️ Clause Risk Analysis
+Automated clause-level risk detection with LegalBERT and contextual explanation via LLaMA.
+
+- Example 1:
+![Risk Analysis 1](screenshots/risk_analysis_1.jpeg)
+
+- Example 2:
+![Risk Analysis 2](screenshots/risk_analysis_2.jpeg)
+
+### 💬 Legal Q&A
+Ask questions about your document in natural language and get concise answers.
+![Legal Q&A](screenshots/qna_example.jpeg)
+
 ## Tech Stack
 - Python
 - LegalBERT
