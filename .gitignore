@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# HuggingFace cache
+.cache/
+.huggingface/
+
+# FAISS index (auto-generated)
+faiss_index.bin
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
