@@ -45,6 +45,15 @@ Ask questions about your document in natural language and get concise answers.
 - Transformers
 - FAISS for semantic search of clauses
 
+## How to Run
+1. Clone the repo: `git clone <your-repo-link>`
+2. Create a virtual environment: `python -m venv venv`
+3. Activate environment:
+   - Windows: `venv\Scripts\activate`
+   - Mac/Linux: `source venv/bin/activate`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Run the app: `streamlit run app.py`
+
 ## How It Works
 1. User uploads a legal document (PDF/DOCX).
 2. **LegalBERT** extracts and classifies clauses for potential legal risks.
