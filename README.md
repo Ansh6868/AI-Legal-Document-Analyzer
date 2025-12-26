@@ -24,6 +24,20 @@ The system uses:
 - LLaMA (Hugging Face)
 - Streamlit
 - Transformers
+- FAISS for semantic search of clauses
+
+## How It Works
+1. User uploads a legal document (PDF/DOCX).
+2. **LegalBERT** extracts and classifies clauses for potential legal risks.
+3. **LLaMA** provides detailed, human-readable explanations for each clause.
+4. Users can also ask natural language questions about the document, which the system answers contextually.
+
+## Q&A Feature
+- Ask specific legal questions about your uploaded document.
+- Get clear, concise answers from the AI using both LegalBERT and LLaMA models.
 
 ## Disclaimer
 This tool is for educational purposes only and does not provide legal advice.
+
+## License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
